@@ -1,19 +1,22 @@
 {
   "name": "investment-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Telegram bot for investment recommendations",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["investment", "telegram", "bot"],
+  "author": "Your Name",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^16.4.7",
     "mongoose": "^8.12.1",
     "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
